@@ -1,6 +1,8 @@
-$textColor: tomato;
+:root {
+  --mainColor: tomato;
+}
 
 .example {
   font-family: -apple-system, Helvetica, sans-serif;
-  color: $textColor;
+  color: var(--mainColor);
 }
