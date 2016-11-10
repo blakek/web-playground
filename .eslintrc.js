@@ -11,13 +11,14 @@ module.exports = {
       experimentalObjectRestSpread: true,
       jsx: true
     },
+    ecmaVersion: 2017,
     sourceType: 'module'
   },
 
   plugins: ['react'],
 
   rules: {
-    'indent': ['error', 2],
+    indent: ['error', 2],
     'linebreak-style': ['error', 'unix'],
     'no-console': ['off'],
     quotes: ['error', 'single']
