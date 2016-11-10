@@ -13,6 +13,10 @@ export default {
 
     new webpack.optimize.UglifyJsPlugin({
       compress:{ warnings: false }
+    }),
+
+    new webpack.ProvidePlugin({
+      'regeneratorRuntime': 'regenerator-runtime/runtime'
     })
   ]
 }
