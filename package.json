@@ -29,7 +29,6 @@
     "eslint-plugin-react": "^6.6.0",
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.21.0",
-    "node-sass": "^4.1.1",
     "postcss-cssnext": "^2.7.0",
     "postcss-loader": "^1.1.0",
     "regenerator": "^0.9.5",
