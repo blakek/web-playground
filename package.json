@@ -5,8 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "build": "webpack -p",
+    "lint": "eslint src",
     "start": "webpack-dev-server -d --hot --inline --progress --config webpack.config.dev.babel.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint"
   },
   "author": "Blake Knight <oss.ideas@gmail.com> (http://blakek.me/)",
   "license": "MIT",
